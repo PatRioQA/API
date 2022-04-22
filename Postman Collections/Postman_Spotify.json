@@ -39,7 +39,35 @@
           "request": {
             "method": "POST",
             "header": [],
-            "url": ""
+            "url": {
+              "raw": "https://api.spotify.com/v1/playlists/:playlist_id/tracks",
+              "protocol": "https",
+              "host": [
+                "api",
+                "spotify",
+                "com"
+              ],
+              "path": [
+                "v1",
+                "playlists",
+                ":playlist_id",
+                "tracks"
+              ],
+              "query": [
+                {
+                  "key": "uris",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "variable": [
+                {
+                  "key": "playlist_id",
+                  "value": "{{playlist_id}}"
+                }
+              ]
+            }
           },
           "response": []
         }
@@ -118,45 +146,45 @@
   ],
   "variable": [
     {
-      "id": "344f65b9-1bda-4d7d-9021-e6cfb9e7ed48",
+      "id": "aaea4245-075b-415b-9978-0147ae2a448b",
       "key": "client_id",
       "value": "client_ID",
       "type": "string"
     },
     {
-      "id": "b5b0771f-6c7f-4899-9803-fd48d9ded0a5",
+      "id": "6cd820da-bdee-4f65-aeac-49e97126105d",
       "key": "client_secret",
       "value": "client_secret",
       "type": "string"
     },
     {
-      "id": "4a5dd8c4-6328-405f-999d-5fd7db5af2bb",
+      "id": "ad0843ad-437a-4f3f-b6bb-cc0447c2593b",
       "key": "client_credentials",
       "value": "client_credentials",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "5f40b93f-da63-4517-86ab-555abef5acbe",
+      "id": "c40a9c65-6898-41b7-bec7-b8eb94a80348",
       "key": "refresh",
       "value": "refresh",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "d12f6dd3-b19d-49c7-ba3f-b585ea4935fc",
+      "id": "dac12992-c038-4687-a331-72458a2b7cf4",
       "key": "user_id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "d575870d-42ee-4bbc-835e-8aec76fc3a52",
+      "id": "75458809-4166-45e7-8740-f52e169cacc3",
       "key": "id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "cfcd81c8-0f02-4770-931d-802b6c279c39",
+      "id": "ac74826b-a23f-4e3b-ad99-04375773988c",
       "key": "playlist_id",
       "value": "7MB1l4sb7dVtYwsp5GkFxi"
     }
