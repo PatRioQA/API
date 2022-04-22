@@ -1,0 +1,146 @@
+{
+  "info": {
+    "_postman_id": "bb39da6c-da8d-41cf-a687-8765e2a0e0d2",
+    "name": "Spotify",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "browse",
+      "item": [
+        {
+          "name": "get new release",
+          "_postman_id": "04c9d4e3-2c8c-419c-8503-6579fc7f8c75",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        },
+        {
+          "name": "get Related artists",
+          "_postman_id": "69a1f713-b8f3-4a12-b6ed-f308c89c1752",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "https://api.spotify.com/v1/artists/67IN4cLJ7798gUapyZlmac/related-artists"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "88d827bf-625b-4acb-9d16-f3f24072382f"
+    },
+    {
+      "name": "Playlist",
+      "item": [
+        {
+          "name": "Create new playlist",
+          "_postman_id": "563d7383-d5ca-4396-9626-d25135da4f4d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"HIT OR MISS\",\r\n  \"description\": \"TRASH OR PASS\",\r\n  \"public\": false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "https://api.spotify.com/v1/users/xxd0twqnqva1vrkqfq5ou66p7/playlists"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "c9c20237-8593-49b4-bcdf-b333fd3c1ce6"
+    }
+  ],
+  "auth": {
+    "type": "oauth2",
+    "oauth2": {
+      "tokenName": "",
+      "useBrowser": false,
+      "grant_type": "authorization_code",
+      "redirect_uri": "https://www.getpostman.com/oauth2/callback",
+      "scope": "playlist-read-private playlist-modify-private",
+      "clientSecret": "{{client_secret}}",
+      "clientId": "{{client_id}}",
+      "accessTokenUrl": "https://accounts.spotify.com/api/token",
+      "authUrl": "https://accounts.spotify.com/authorize",
+      "addTokenTo": "header"
+    }
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "4313c318-6ac4-4d47-a385-94a932f52ae1",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "ca1a2919-ae6f-4283-9232-88a9c967909f",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "a9c13364-93cd-4208-bea3-3a2e3963ccd1",
+      "key": "client_id",
+      "value": "client_ID",
+      "type": "string"
+    },
+    {
+      "id": "d504c585-9d66-42cd-9f70-bda359b36614",
+      "key": "client_secret",
+      "value": "client_secret",
+      "type": "string"
+    },
+    {
+      "id": "52f6e78d-b963-44c2-94b4-e392937444e4",
+      "key": "client_credentials",
+      "value": "client_credentials",
+      "type": "string",
+      "disabled": true
+    },
+    {
+      "id": "369136b5-dff7-4ecf-9fcf-40193764505d",
+      "key": "refresh",
+      "value": "refresh",
+      "type": "string",
+      "disabled": true
+    },
+    {
+      "id": "6aadeba9-6f63-4113-81b7-fd00bd509884",
+      "key": "user_id",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "id": "7bc1f03a-9400-4aa8-af74-15a625daa554",
+      "key": "id",
+      "value": "",
+      "type": "string"
+    }
+  ]
+}
