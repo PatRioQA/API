@@ -105,39 +105,39 @@
   ],
   "variable": [
     {
-      "id": "9f58a446-0932-4d66-804b-613548ba8503",
+      "id": "70fceee3-e05b-41bc-9214-657e1f1dfc29",
       "key": "client_id",
       "value": "client_ID",
       "type": "string"
     },
     {
-      "id": "1593db90-2aef-4723-823d-ade7fc756b53",
+      "id": "5f057ce0-2ee8-4783-b59b-759ca4cf13a7",
       "key": "client_secret",
       "value": "client_secret",
       "type": "string"
     },
     {
-      "id": "202341bf-0486-4a36-8323-638c07438b96",
+      "id": "a0dddf1c-0140-4138-bb90-a7d03323aeaa",
       "key": "client_credentials",
       "value": "client_credentials",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "9375ac1c-8786-446a-801c-a9a8012839a7",
+      "id": "5eeeaee7-656a-4e1b-bae7-9d0892422908",
       "key": "refresh",
       "value": "refresh",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "3a51c366-9a0b-4e2e-8a17-620fb2d3ae55",
+      "id": "980c7cd4-6262-431d-8266-9f495e6b692a",
       "key": "user_id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "7c9f9f94-5242-47c6-b6e1-fbb327d07319",
+      "id": "c292fc8a-ca07-49dd-bd26-c76ddc3aed4d",
       "key": "id",
       "value": "",
       "type": "string"
