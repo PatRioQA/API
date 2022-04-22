@@ -39,8 +39,17 @@
           "request": {
             "method": "POST",
             "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
             "url": {
-              "raw": "https://api.spotify.com/v1/playlists/:playlist_id/tracks",
+              "raw": "https://api.spotify.com/v1/playlists/:playlist_id/tracks?uris=album/4VZ7jhV0wHpoNPCB7Vmiml?si=fXxAF8h4QjybDCXuwoMMpQ",
               "protocol": "https",
               "host": [
                 "api",
@@ -56,15 +65,14 @@
               "query": [
                 {
                   "key": "uris",
-                  "value": "",
-                  "type": "text",
-                  "disabled": true
+                  "value": "album/4VZ7jhV0wHpoNPCB7Vmiml?si=fXxAF8h4QjybDCXuwoMMpQ",
+                  "type": "text"
                 }
               ],
               "variable": [
                 {
                   "key": "playlist_id",
-                  "value": "{{playlist_id}}"
+                  "value": "38yoNS7HkpW9CCFkABUoXs"
                 }
               ]
             }
@@ -146,39 +154,39 @@
   ],
   "variable": [
     {
-      "id": "7e255487-edae-41b0-b2f9-36649e0d4b9a",
+      "id": "e6e8cc2a-db73-4731-a234-6e88d8660a07",
       "key": "client_id",
       "value": "client_ID",
       "type": "string"
     },
     {
-      "id": "d5965f5e-9904-4ae9-8b85-46f704d7b68a",
+      "id": "5cf77932-1b59-4942-b52c-815927cf5854",
       "key": "client_secret",
       "value": "client_secret",
       "type": "string"
     },
     {
-      "id": "b44e196c-338f-4009-b69d-cbfb5a504a0c",
+      "id": "7b4ac0a5-2153-40e9-afdd-719250ef3d2f",
       "key": "client_credentials",
       "value": "client_credentials",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "63fad7ee-844c-4654-b465-ab0d5fc21dac",
+      "id": "773d9003-a1fa-4a79-81cd-c18e201a5d6b",
       "key": "refresh",
       "value": "refresh",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "07574556-9473-4b6e-aeff-776ab4e966ad",
+      "id": "10931024-f974-4d8e-b100-74b3b066f52c",
       "key": "user_id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "78274206-c3ae-4f9b-854b-685e2c4fbf11",
+      "id": "72b51d06-568f-469c-b545-4e52138019ee",
       "key": "id",
       "value": "",
       "type": "string",
