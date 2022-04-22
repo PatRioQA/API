@@ -6,6 +6,47 @@
   },
   "item": [
     {
+      "name": "Playlist",
+      "item": [
+        {
+          "name": "Create new playlist",
+          "id": "563d7383-d5ca-4396-9626-d25135da4f4d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"HIT OR MISS\",\r\n  \"description\": \"TRASH OR PASS\",\r\n  \"public\": false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "https://api.spotify.com/v1/users/xxd0twqnqva1vrkqfq5ou66p7/playlists"
+          },
+          "response": []
+        },
+        {
+          "name": "Add to playlist",
+          "id": "1f75635a-bdd2-4ab2-8e9d-21c7c0465680",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": ""
+          },
+          "response": []
+        }
+      ],
+      "id": "c9c20237-8593-49b4-bcdf-b333fd3c1ce6"
+    },
+    {
       "name": "browse",
       "item": [
         {
@@ -36,34 +77,6 @@
         }
       ],
       "id": "88d827bf-625b-4acb-9d16-f3f24072382f"
-    },
-    {
-      "name": "Playlist",
-      "item": [
-        {
-          "name": "Create new playlist",
-          "id": "563d7383-d5ca-4396-9626-d25135da4f4d",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"name\": \"HIT OR MISS\",\r\n  \"description\": \"TRASH OR PASS\",\r\n  \"public\": false\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": "https://api.spotify.com/v1/users/xxd0twqnqva1vrkqfq5ou66p7/playlists"
-          },
-          "response": []
-        }
-      ],
-      "id": "c9c20237-8593-49b4-bcdf-b333fd3c1ce6"
     }
   ],
   "auth": {
@@ -105,39 +118,39 @@
   ],
   "variable": [
     {
-      "id": "c3479861-e099-4c61-8c97-84faa82dc909",
+      "id": "66e0ee13-ac0d-425f-b1a8-60143d9cee3a",
       "key": "client_id",
       "value": "client_ID",
       "type": "string"
     },
     {
-      "id": "d5932ac9-b005-48f9-aa44-c05cbb5ff666",
+      "id": "fc4cfe23-60d6-46bd-92ac-ca9622f82ef7",
       "key": "client_secret",
       "value": "client_secret",
       "type": "string"
     },
     {
-      "id": "afc84410-8513-4194-a029-6df7392703ee",
+      "id": "4ead4661-53c5-48c8-b4cd-dad41b114cbd",
       "key": "client_credentials",
       "value": "client_credentials",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "583ef717-68a3-4a1a-9a01-95a2e303506c",
+      "id": "6e2639bb-e6a7-4108-81a4-177ea7dc7146",
       "key": "refresh",
       "value": "refresh",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "d5f1f4bc-8555-4af8-86c0-b702eda6238a",
+      "id": "4e3e2c7f-270a-44ac-bc42-273878f6a611",
       "key": "user_id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "ab66593a-3ce6-4c63-aee1-d8ae00da7419",
+      "id": "04058bc8-37d2-4fdb-bca3-55765504bc41",
       "key": "id",
       "value": "",
       "type": "string"
