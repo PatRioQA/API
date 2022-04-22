@@ -118,42 +118,47 @@
   ],
   "variable": [
     {
-      "id": "66e0ee13-ac0d-425f-b1a8-60143d9cee3a",
+      "id": "344f65b9-1bda-4d7d-9021-e6cfb9e7ed48",
       "key": "client_id",
       "value": "client_ID",
       "type": "string"
     },
     {
-      "id": "fc4cfe23-60d6-46bd-92ac-ca9622f82ef7",
+      "id": "b5b0771f-6c7f-4899-9803-fd48d9ded0a5",
       "key": "client_secret",
       "value": "client_secret",
       "type": "string"
     },
     {
-      "id": "4ead4661-53c5-48c8-b4cd-dad41b114cbd",
+      "id": "4a5dd8c4-6328-405f-999d-5fd7db5af2bb",
       "key": "client_credentials",
       "value": "client_credentials",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "6e2639bb-e6a7-4108-81a4-177ea7dc7146",
+      "id": "5f40b93f-da63-4517-86ab-555abef5acbe",
       "key": "refresh",
       "value": "refresh",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "4e3e2c7f-270a-44ac-bc42-273878f6a611",
+      "id": "d12f6dd3-b19d-49c7-ba3f-b585ea4935fc",
       "key": "user_id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "04058bc8-37d2-4fdb-bca3-55765504bc41",
+      "id": "d575870d-42ee-4bbc-835e-8aec76fc3a52",
       "key": "id",
       "value": "",
       "type": "string"
+    },
+    {
+      "id": "cfcd81c8-0f02-4770-931d-802b6c279c39",
+      "key": "playlist_id",
+      "value": "7MB1l4sb7dVtYwsp5GkFxi"
     }
   ]
 }
