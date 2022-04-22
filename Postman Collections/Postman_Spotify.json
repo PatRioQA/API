@@ -126,7 +126,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "4313c318-6ac4-4d47-a385-94a932f52ae1",
+        "id": "1df117bc-26cc-46e9-87ec-bad4cfe96b98",
         "type": "text/javascript",
         "exec": [
           ""
@@ -136,7 +136,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "ca1a2919-ae6f-4283-9232-88a9c967909f",
+        "id": "7ef75ca2-16fa-4398-91aa-a958107e6074",
         "type": "text/javascript",
         "exec": [
           ""
@@ -146,47 +146,43 @@
   ],
   "variable": [
     {
-      "id": "aaea4245-075b-415b-9978-0147ae2a448b",
+      "id": "7e255487-edae-41b0-b2f9-36649e0d4b9a",
       "key": "client_id",
       "value": "client_ID",
       "type": "string"
     },
     {
-      "id": "6cd820da-bdee-4f65-aeac-49e97126105d",
+      "id": "d5965f5e-9904-4ae9-8b85-46f704d7b68a",
       "key": "client_secret",
       "value": "client_secret",
       "type": "string"
     },
     {
-      "id": "ad0843ad-437a-4f3f-b6bb-cc0447c2593b",
+      "id": "b44e196c-338f-4009-b69d-cbfb5a504a0c",
       "key": "client_credentials",
       "value": "client_credentials",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "c40a9c65-6898-41b7-bec7-b8eb94a80348",
+      "id": "63fad7ee-844c-4654-b465-ab0d5fc21dac",
       "key": "refresh",
       "value": "refresh",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "dac12992-c038-4687-a331-72458a2b7cf4",
+      "id": "07574556-9473-4b6e-aeff-776ab4e966ad",
       "key": "user_id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "75458809-4166-45e7-8740-f52e169cacc3",
+      "id": "78274206-c3ae-4f9b-854b-685e2c4fbf11",
       "key": "id",
       "value": "",
-      "type": "string"
-    },
-    {
-      "id": "ac74826b-a23f-4e3b-ad99-04375773988c",
-      "key": "playlist_id",
-      "value": "7MB1l4sb7dVtYwsp5GkFxi"
+      "type": "string",
+      "disabled": true
     }
   ]
 }
