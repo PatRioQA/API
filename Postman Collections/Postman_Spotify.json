@@ -10,20 +10,20 @@
       "item": [
         {
           "name": "get new release",
-          "_postman_id": "04c9d4e3-2c8c-419c-8503-6579fc7f8c75",
+          "id": "04c9d4e3-2c8c-419c-8503-6579fc7f8c75",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
           "request": {
             "method": "GET",
             "header": [],
-            "url": null
+            "url": "https://api.spotify.com/v1/browse/new-releases"
           },
           "response": []
         },
         {
           "name": "get Related artists",
-          "_postman_id": "69a1f713-b8f3-4a12-b6ed-f308c89c1752",
+          "id": "69a1f713-b8f3-4a12-b6ed-f308c89c1752",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -35,14 +35,14 @@
           "response": []
         }
       ],
-      "_postman_id": "88d827bf-625b-4acb-9d16-f3f24072382f"
+      "id": "88d827bf-625b-4acb-9d16-f3f24072382f"
     },
     {
       "name": "Playlist",
       "item": [
         {
           "name": "Create new playlist",
-          "_postman_id": "563d7383-d5ca-4396-9626-d25135da4f4d",
+          "id": "563d7383-d5ca-4396-9626-d25135da4f4d",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
           },
@@ -63,7 +63,7 @@
           "response": []
         }
       ],
-      "_postman_id": "c9c20237-8593-49b4-bcdf-b333fd3c1ce6"
+      "id": "c9c20237-8593-49b4-bcdf-b333fd3c1ce6"
     }
   ],
   "auth": {
@@ -105,39 +105,39 @@
   ],
   "variable": [
     {
-      "id": "a9c13364-93cd-4208-bea3-3a2e3963ccd1",
+      "id": "9f58a446-0932-4d66-804b-613548ba8503",
       "key": "client_id",
       "value": "client_ID",
       "type": "string"
     },
     {
-      "id": "d504c585-9d66-42cd-9f70-bda359b36614",
+      "id": "1593db90-2aef-4723-823d-ade7fc756b53",
       "key": "client_secret",
       "value": "client_secret",
       "type": "string"
     },
     {
-      "id": "52f6e78d-b963-44c2-94b4-e392937444e4",
+      "id": "202341bf-0486-4a36-8323-638c07438b96",
       "key": "client_credentials",
       "value": "client_credentials",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "369136b5-dff7-4ecf-9fcf-40193764505d",
+      "id": "9375ac1c-8786-446a-801c-a9a8012839a7",
       "key": "refresh",
       "value": "refresh",
       "type": "string",
       "disabled": true
     },
     {
-      "id": "6aadeba9-6f63-4113-81b7-fd00bd509884",
+      "id": "3a51c366-9a0b-4e2e-8a17-620fb2d3ae55",
       "key": "user_id",
       "value": "",
       "type": "string"
     },
     {
-      "id": "7bc1f03a-9400-4aa8-af74-15a625daa554",
+      "id": "7c9f9f94-5242-47c6-b6e1-fbb327d07319",
       "key": "id",
       "value": "",
       "type": "string"
